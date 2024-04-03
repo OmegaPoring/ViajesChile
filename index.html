@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap 5.3.3 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/826fab7976.js" crossorigin="anonymous"></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <title>Viajes Chile</title>
+</head>
+<body id="inicio">
+
+    <!-- NavBar -->
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top" data-bs-theme="dark" id="bgNavBar">
+            <div class="container-fluid">
+                <a href="#" class="d-flex nav-link">
+                    <img src="./assets/img/viajes.svg" alt="Viajes Chile Logo" style="height: 30px;">
+                    <p class="m-0 fs-5">Viajes Chile</p>
+                </a>
+              <button class="navbar-toggler nav-link" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                  <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
+                  <a class="nav-link active d-none d-sm-flex" href="#quienes">Quienes Somos</a>
+                  <a class="nav-link active" href="#destacados">Destacados</a>
+                  <a class="nav-link active" href="#contacto">Contacto</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <!-- Carousel -->
+    <section class="sect-carousel">
+        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./assets/img/carousel1.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/img/carousel2.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/img/carousel3.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </section>
+    
+    <!-- Quienes Somos -->
+    <section class="sect-quienes py-5 d-none d-sm-block" id="quienes">
+        <div>
+            <p class="text-center fs-3 my-5">¿QUIENES SOMOS?</p>
+            <div class="d-flex justify-content-evenly my-5 mx-auto col-8">
+                <div class="col-3">
+                    <div class="h-quienes text-center">
+                        <i class="fa-solid fa-plane fs-2 text-center py-2" style="color: #ffffff;"></i>
+                    </div>
+                    <div>
+                        <p class="p-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Posuere sollicitudin aliquam ultrices sagittis orci a. Feugiat nisl pretium fusce id. Risus feugiat in ante metus dictum at tempor commodo. Sit amet porttitor eget dolor morbi non arcu. Viverra nibh cras pulvinar mattis nunc sed. Quis auctor elit sed vulputate mi sit amet mauris. In hac habitasse platea dictumst quisque sagittis purus.</p>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div>
+                        <p class="p-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Posuere sollicitudin aliquam ultrices sagittis orci a. Feugiat nisl pretium fusce id. Risus feugiat in ante metus dictum at tempor commodo. Sit amet porttitor eget dolor morbi non arcu. Viverra nibh cras pulvinar mattis nunc sed. Quis auctor elit sed vulputate mi sit amet mauris. In hac habitasse platea dictumst quisque sagittis purus.</p>
+                    </div>
+                    <div class="h-quienes text-center">
+                        <i class="fa-solid fa-mountain fs-2 text-center py-2" style="color: #ffffff;"></i>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="h-quienes text-center">
+                        <i class="fa-solid fa-route fs-2 text-center py-2" style="color: #ffffff;"></i>
+                    </div>
+                    <div>
+                        <p class="p-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Posuere sollicitudin aliquam ultrices sagittis orci a. Feugiat nisl pretium fusce id. Risus feugiat in ante metus dictum at tempor commodo. Sit amet porttitor eget dolor morbi non arcu. Viverra nibh cras pulvinar mattis nunc sed. Quis auctor elit sed vulputate mi sit amet mauris. In hac habitasse platea dictumst quisque sagittis purus.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cards -->
+    <section class="sect-destacados py-5" id="destacados">
+        <div>
+            <p class="text-center fs-3">DESTACADOS</p>
+            <div class="container d-block d-sm-flex justify-content-around">
+                <div class="card my-5 mx-auto" style="width: 18rem;">
+                    <img src="./assets/img/card1.jpg" class="card-img-top h-50" alt="...">
+                    <div class="card-body">
+                      <p class="fs-5">Lorem ipsum dolor sit amet</p>
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Posuere sollicitudin aliquam ultrices sagittis orci a.</p>
+                    </div>
+                </div>
+
+                <div class="card my-5 mx-auto" style="width: 18rem;">
+                    <img src="./assets/img/card2.jpg" class="card-img-top h-50" alt="...">
+                    <div class="card-body">
+                        <p class="fs-5">Lorem ipsum dolor sit amet</p>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Posuere sollicitudin aliquam ultrices sagittis orci a.</p>
+                    </div>
+                </div>
+
+                <div class="card my-5 mx-auto" style="width: 18rem;">
+                    <img src="./assets/img/card3.jpg" class="card-img-top h-50" alt="...">
+                    <div class="card-body">
+                        <p class="fs-5">Lorem ipsum dolor sit amet</p>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Posuere sollicitudin aliquam ultrices sagittis orci a.</p>
+                    </div>
+                </div>
+
+                <div class="card my-5 mx-auto" style="width: 18rem;">
+                    <img src="./assets/img/card4.jpg" class="card-img-top h-50" alt="...">
+                    <div class="card-body">
+                        <p class="fs-5">Lorem ipsum dolor sit amet</p>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Posuere sollicitudin aliquam ultrices sagittis orci a.</p>
+                    </div>
+                </div>      
+            </div>
+        </div>
+    </section>
+
+    <!-- Formulario -->
+    <section class="sect-contacto py-5" id="contacto">
+        <div>
+            <p class="text-center fs-3">CONTACTO</p>
+
+            <form action="" class="col-8 col-sm-4 mx-auto">
+                <div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Asunto</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-info" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Presiona para enviar mensaje">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-3">
+        <div class="d-block d-sm-flex justify-content-around">
+            <p class="fs-4 text-center mx-auto">VIAJES CHILE</p>
+
+            <div class="col-4 col-sm-2 d-flex justify-content-evenly align-self-center mx-auto">
+                <a href="https://github.com/OmegaPoring" target="_blank"><i class="fa-brands fa-square-github fa-2xl" style="color: #ffffff;"></i></a>
+                <a href="https://www.linkedin.com/in/giovanni-inarejo-escobar/" target="_blank"><i class="fa-brands fa-linkedin fa-2xl" style="color: #ffffff;"></i></a>
+                <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-square-x-twitter fa-2xl" style="color: #ffffff;"></i></a>
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><i class="fa-brands fa-square-facebook fa-2xl" style="color: #ffffff;"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS 5.3.3 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <!-- jQuery 3.7.1 + Smooth Scroll -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    
+    <script>
+        $(document).ready(function(){
+        
+        $("a").on('click', function(event) {
+
+            
+            if (this.hash !== "") {
+            
+            event.preventDefault();
+
+            var hash = this.hash;
+
+            $('html, body').animate({
+                scrollTop: $(hash).offset().top
+            }, 800, function(){
+
+                window.location.hash = hash;
+            });
+            }
+        });
+        });
+    </script>
+
+    <!-- Activar Tooltip -->
+    <script>
+        const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+        const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+    </script>
+
+     <!-- Link Propio JS -->
+     <script src="./assets/js/main.js"></script>
+</body>
+</html>

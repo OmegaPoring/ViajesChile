@@ -1,0 +1,50 @@
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    background-color: black;
+}
+
+/* NavBar */
+.navbar{
+    background-color: transparent;
+    color: #fff;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+/* Section Quienes Somos */
+.sect-quienes{
+    background-color: black;
+    color: #fff;
+}
+
+.h-quienes {
+    background-color: #0DCAF0;
+}
+
+/* Section Destacados */
+.sect-destacados{
+    background-color: black;
+    color: #fff;
+}
+
+.sect-destacados div div div{
+    background-color: #0DCAF0;
+    color: #fff;
+}
+
+/* Section Contacto */
+.sect-contacto{
+    background-color: black;
+    color: #fff;
+}
+
+.btn-info{
+    color: #fff;
+}
+
+/* Footer */
+footer{
+    background-color: #0DCAF0;
+    color: #fff;
+}
